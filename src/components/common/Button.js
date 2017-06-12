@@ -37,7 +37,7 @@ const Button = ({ children, onPress }) => (
 
 Button.propTypes = {
   onPress: PropTypes.func.isRequired,
-  children: PropTypes.oneOf([
+  children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]).isRequired,

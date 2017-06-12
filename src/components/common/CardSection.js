@@ -16,15 +16,11 @@ const style = {
   },
 };
 
-
-const CardSection = (props) => {
-  return (
-    <View style={style.containerStyle}>
-      {props.children}
-    </View>
-  );
-};
-
+const CardSection = props => (
+  <View style={style.containerStyle}>
+    {props.children}
+  </View>
+);
 
 CardSection.defaultProps = {
   children: null,
