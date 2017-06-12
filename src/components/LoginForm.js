@@ -87,8 +87,8 @@ class LoginForm extends Component {
         <CardSection>
           {
             this.state.busy ?
-            <Spinner /> :
-            <Button onPress={this.handleLoginButtonPress}>Login</Button>
+              <Spinner /> :
+              <Button onPress={this.handleLoginButtonPress}>Login</Button>
           }
         </CardSection>
       </Card>
