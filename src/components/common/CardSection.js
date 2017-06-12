@@ -37,4 +37,4 @@ CardSection.propTypes = {
   ]),
 };
 
-export default CardSection;
+export { CardSection };

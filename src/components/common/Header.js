@@ -57,4 +57,4 @@ Header.defaultProps = {
   subtitle: null,
 };
 
-export default Header;
+export { Header };

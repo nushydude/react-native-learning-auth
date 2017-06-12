@@ -43,4 +43,4 @@ Button.propTypes = {
   ]).isRequired,
 };
 
-export default Button;
+export { Button };

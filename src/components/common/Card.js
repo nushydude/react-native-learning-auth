@@ -37,4 +37,4 @@ Card.propTypes = {
 };
 
 
-export default Card;
+export { Card };
