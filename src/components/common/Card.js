@@ -17,7 +17,7 @@ const styles = {
   },
 };
 
-const Card = (props) => (
+const Card = props => (
   <View style={styles.containerStyle}>
     {props.children}
   </View>
