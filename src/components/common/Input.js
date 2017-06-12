@@ -27,7 +27,7 @@ const Input = ({ autocorrect, label, onChangeText, placeholder, secureTextEntry,
     <Text style={styles.labelStyle}>{ label }</Text>
     <TextInput
       autoCorrect={autocorrect}
-      onChange={onChangeText}
+      onChangeText={text => onChangeText(text)}
       placeholder={placeholder}
       secureTextEntry={secureTextEntry}
       style={styles.inputStyle}
